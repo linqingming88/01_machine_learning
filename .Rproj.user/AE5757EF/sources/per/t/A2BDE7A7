@@ -1,0 +1,28 @@
+{
+    "id": "A2BDE7A7",
+    "path": "F:/development/01_机器学习/02_逻辑回归/逻辑回归.Rmd",
+    "project_path": "02_逻辑回归/逻辑回归.Rmd",
+    "type": "r_markdown",
+    "hash": "681465859",
+    "contents": "",
+    "dirty": false,
+    "created": 1736927302715.0,
+    "source_on_save": false,
+    "relative_order": 3,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "44,0",
+        "scrollLine": "34",
+        "last_setup_crc32": "cd32b8ab7ca3d231"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1736933797,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1736933797394,
+    "read_only": false,
+    "read_only_alternatives": []
+}

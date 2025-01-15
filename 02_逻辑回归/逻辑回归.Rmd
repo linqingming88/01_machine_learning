@@ -1,0 +1,48 @@
+---
+title: "Untitled"
+author: "Qingming Lin"
+date: "`r Sys.Date()`"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message=FALSE)
+```
+
+```{r}
+rm(list = ls())
+library(MASS)
+data(biopsy)
+str(biopsy)
+biopsy$ID = NULL
+names(biopsy) <- c("thick", "u.size", "u.shape", "adhsn", "s.size", "nucl", "chrom", "n.nuc", "mit", "class")
+names(biopsy)
+biopsy.v2 <- na.omit(biopsy)
+y <- ifelse(biopsy$class == "malignant", 1, 0)
+library(reshape2)
+library(ggplot2)
+biop.m <- melt(biopsy.v2, id.var = "class")
+ggplot(data = biop.m, aes(x = class, y = value)) + 
+  geom_boxplot() + 
+  facet_wrap(~ variable, ncol = 3)
+```
+
+```{r}
+library(corrplot)
+bc <- cor(biopsy.v2[, 1:9])
+corrplot.mixed(bc)
+```
+```{r}
+set.seed(123)
+ind <- sample(2, nrow(biopsy.v2), replace = TRUE, prob = c(0.7, 0.3))
+train <- biopsy.v2[ind==1, ]
+test <- biopsy.v2[ind==2, ]
+str(test)
+table(train$class)
+table(test$class)
+```
+
+
+
+
+

@@ -1,0 +1,32 @@
+{
+    "id": "8D749EDB",
+    "path": "F:/development/01_机器学习/01_线性回归/线性回归.Rmd",
+    "project_path": "01_线性回归/线性回归.Rmd",
+    "type": "r_markdown",
+    "hash": "2518896756",
+    "contents": "",
+    "dirty": false,
+    "created": 1736906884604.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "cursorPosition": "24,0",
+        "scrollLine": "7",
+        "rmdVisualModeLocation": "5:0",
+        "last_setup_crc32": "cd32b8ab7ca3d231"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1736930829,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1736930829406,
+    "read_only": false,
+    "read_only_alternatives": []
+}
